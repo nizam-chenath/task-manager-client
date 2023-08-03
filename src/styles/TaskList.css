@@ -83,3 +83,9 @@
     padding: 10px 20px;
     background-color: #0056b3;
   }
+
+  @media(max-width: 464px){
+    .task-list{
+        width: 100vw;
+    }
+  }
