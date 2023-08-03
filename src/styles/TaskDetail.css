@@ -1,0 +1,24 @@
+.detail-container{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+.title{
+    font-size: 34px;
+}
+.description, .status, .edit-btn{
+    display: grid;
+    place-content: center;
+}
+.description{
+    font-weight: bold;
+}
+.edit-btn button{
+    width: 200px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.form-container{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.form{
+    display: grid;
+    gap: 25px;
+    width: 300px;
+}
+.form button{
+    width: 200px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

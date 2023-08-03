@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -26,13 +26,18 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.back-btn{
+  border: none;
+  background: none;
+  text-align: left;
+}
+.back-btn svg{
+  padding: 10px;
+  border: 1px solid #2427cf;
+  border-radius: 10px;
+}
+a{
+  text-decoration: none;
 }
