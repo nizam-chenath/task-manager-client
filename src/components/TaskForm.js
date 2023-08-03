@@ -78,8 +78,14 @@ const TaskForm = () => {
         <div>
           <label>Status:</label>
           <select value={status} onChange={(e) => setStatus(e.target.value)} style={{marginLeft: "10px", padding: "5px"}}>
-            <option value="pending">Pending</option>
+            {id ?<>  
+                <option value="pending">Pending</option>
             <option value="completed">Completed</option>
+            </> 
+        :
+        <option value="pending">Pending</option>
+        }
+            
           </select>
         </div>
         <button type="submit">{id ? 'Update' : 'Create'}</button>
